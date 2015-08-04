@@ -1,0 +1,58 @@
+
+	body 
+	{
+
+	font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+
+	color: #3E3E3E;
+
+	background: #efefef;
+
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right:20px;
+	}
+
+	table 
+	{
+    float: left;
+	border-collapse:collapse;
+	font-size:14px;
+	width:100%; 
+
+	border:2px solid #015287;
+
+	}
+
+	th 
+	{
+	height: 60px;
+
+	border-bottom: 2px solid #015287;
+	color: #D15600;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	text-align: left;
+
+	padding: 3px 8px;
+
+	}
+
+	td 
+	{
+	padding: 6px;
+	}
+	tr:hover 
+	{
+	 background-color: #ffff99; 
+	}
+	caption
+	{
+		float: top;
+		margin-top: -100px;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}

@@ -1,0 +1,12 @@
+<?php
+    $key=$_GET['key'];
+    $array = array();
+    $con=mysql_connect("localhost","root","");
+    $db=mysql_select_db("rental_library",$con);
+    $query=mysql_query("SELECT * FROM `book` WHERE `Tittle` LIKE '%{$key}%'");
+    while($row=mysql_fetch_assoc($query))
+    {
+      $array[] = $row['Tittle'];
+    }
+    echo json_encode($array);
+?>

@@ -1,0 +1,112 @@
+            #main 
+			{
+			width:800px;
+			margin-bottom:300px;
+			margin-left: 200px;
+			font-family:Arial;
+			}
+			label
+			{
+			color:green;
+			font-size: 20px;
+			}
+			h1
+			{
+             margin-bottom: -50px;
+             margin-left: 20px;
+             padding: 0px;
+			}
+			h2 
+			{
+			background-color:#FEFFED;
+			text-align:center;
+			border-radius:10px 10px 0 0;
+			margin:-10px -40px;
+			padding:15px
+			}
+			hr 
+			{
+			border:0;
+			border-bottom:1px solid #ccc;
+			margin:10px -40px;
+			margin-bottom:30px
+			}
+
+			#select
+			{
+			width:99.5%;
+			padding:10px;
+			margin-top:8px;
+			border:1px solid #ccc;
+			padding-left:5px;
+			font-size:16px;
+			font-family:raleway;
+			}
+			
+			#login 
+			{
+			width:600px;
+			float:left;
+			border-radius:10px;
+			font-family:raleway;
+			border:2px solid #ccc;
+			padding:10px 40px 25px;
+			margin-top:70px
+			}
+			input[type=text]
+			{
+			width:99.5%;
+			padding:10px;
+			margin-top:8px;
+			border:1px solid #ccc;
+			padding-left:5px;
+			font-size:16px;
+			font-family:raleway;
+			}
+			input[type=password]
+			{
+			width:99.5%;
+			padding:10px;
+			margin-top:8px;
+			border:1px solid #ccc;
+			padding-left:5px;
+			font-size:16px;
+			font-family:raleway
+			}
+			input[type=email]
+			{
+			width:99.5%;
+			padding:10px;
+			margin-top:8px;
+			border:1px solid #ccc;
+			padding-left:5px;
+			font-size:16px;
+			font-family:raleway
+			}
+			input[type=number]
+			{
+			width:99.5%;
+			padding:10px;
+			margin-top:8px;
+			border:1px solid #ccc;
+			padding-left:5px;
+			font-size:16px;
+			font-family:raleway
+			}
+			input[type=submit] 
+			{
+			width:10%;
+			background-color:#3AA960;
+			color:#fff;
+			padding:10px;
+			font-size:20px;
+			cursor:pointer;
+			border-radius:10px;
+			margin-top:15px;
+			margin-right:15px;
+			float: center;
+			}
+			input[type=submit]:hover
+            {
+                background-color: #3AA940;
+            }

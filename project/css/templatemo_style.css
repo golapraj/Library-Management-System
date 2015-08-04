@@ -1,0 +1,195 @@
+﻿
+html {
+
+	background: url(images/templatemo_html_bg.jpg) repeat;
+
+}
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: "Times New Roman", Times, serif;
+
+	font-size: 16px;
+
+	line-height: 1.5em;
+
+	color: #b48842;
+
+	background: url(images/templatemo_body_bg.jpg) repeat-x  center top;
+
+	width: 100%;
+
+	display: table;
+
+}
+
+a:link, a:visited { color: #c89d59; text-decoration: none; } 
+
+a:active, a:hover { color: #FFFF00; text-decoration: none }
+
+
+h1 {
+
+	font-size: 24px;
+
+	font-weight: bold;
+
+	text-decoration: underline;
+
+	color: #c89d59;
+
+	background-position: left;
+
+	padding-top: 20px;
+
+}
+
+h2 {
+
+	margin-top: 40px;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	text-decoration: underline;
+
+	color: #c89d59;
+
+}
+
+
+#templatemo_container {
+
+	width: 806px;
+
+	margin: auto;
+
+}
+
+.navbar	{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	
+	}
+.navbar li 	{
+			height: auto;
+			width: 100px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #560410;
+			border-right:2px solid #1E0606;
+                        }
+.navbar a	{							
+		padding: 10px ;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #560410; 
+		border-right: 1px solid #560410; 
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: #9D8B59; /* Text color is white */
+		display: block;
+		}
+.navbar li:hover, a:hover {background:url(images/templatemo_button_hover.jpg) no-repeat;} 
+.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul {
+        display: block; /* Displays the drop-down box when the menu item is hovered over */
+  }
+.navbar li ul li {background-color: #560410;} 
+	
+.navbar li ul li a:hover{background-color: #366b82;background: url(images/templatemo_button_hover.jpg) no-repeat;
+}
+
+
+
+#templatemo_topsection {
+
+	float: left;
+
+	margin-top: 40px;
+
+	width: 806px;
+
+	height: 48px;
+
+	color: #c1b25d;
+
+	font-size: 24px;
+
+	font-weight: bold;
+
+	padding-top: 50px;
+
+	line-height: 1.6em;
+
+	text-align: center;
+
+	background: url(images/templatemo_title_bg.jpg) no-repeat;
+
+}
+
+#templatemo_headersection {
+
+	float: left;
+
+	width: 806px;
+
+	height: 252px;
+
+}
+
+#templatemo_content_section {
+
+	float: left;
+
+	width: 750px;
+
+	text-align: justify;
+
+	padding-left: 30px;
+
+}
+
+#templatemo_content_section img {
+
+	float: left;
+
+	padding-right: 20px;
+
+}
+
+#templatemo_footer {
+
+	float: left;
+
+	margin: auto;
+
+	margin-top: 20px;
+
+	text-align: center;
+
+	padding-top: 35px;
+
+	width: 744px;
+
+	height: 50px;
+
+	background: url(images/templatemo_footer.jpg) no-repeat;
+
+	background-position: top;
+
+}
